@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626a81da651cabe45b4d4f8877089d27, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  Rows: 8
+  Columns: 7
+  LevelGrid:
+    rows:
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+  CellSize: {x: 0.6, y: 0.6}
+  ScreenOffset: {x: 0, y: 1}
+  ShapeSizeFactor: 1.2
+  RandomizeColorShapes: 0
+  GridShapes:
+    gridRows:
+    - shapesRow: 07000000070000000500000001000000050000000700000007000000
+    - shapesRow: 07000000070000000100000004000000010000000700000007000000
+    - shapesRow: 07000000050000000500000001000000050000000500000007000000
+    - shapesRow: 07000000050000000500000005000000050000000500000007000000
+    - shapesRow: 00000000050000000100000005000000040000000500000004000000
+    - shapesRow: 02000000050000000400000005000000010000000500000002000000
+    - shapesRow: 00000000050000000500000005000000050000000500000002000000
+    - shapesRow: 07000000050000000500000008000000050000000400000007000000
+  LevelShapes: 00000000010000000200000004000000
+  BoardBombChances: 0
+  CanAddBonus: 1
+  CanShowHint: 1
+  LevelMoves: 1
+  MovesCount: 16
+  TimeLevel: 0
+  LevelDuration: 0
+  ContainsJellyBlocks: 0
+  JellyRowAndColumn:
+    rows:
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+  ContainsRockBlocks: 0
+  RockRowAndColumns:
+    rows:
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+  ShapesMatchTarget: 0
+  ShapesMatches: []
+  TargetScores: 1
+  ScoreTarget: 2000
+  LevelCompleted: 0
+  ScoresEarned: 0

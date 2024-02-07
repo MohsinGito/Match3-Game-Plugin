@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626a81da651cabe45b4d4f8877089d27, type: 3}
+  m_Name: Level 7
+  m_EditorClassIdentifier: 
+  Rows: 7
+  Columns: 7
+  LevelGrid:
+    rows:
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+    - row: 01010101010101
+  CellSize: {x: 0.6, y: 0.6}
+  ScreenOffset: {x: 0, y: 1}
+  ShapeSizeFactor: 1.2
+  RandomizeColorShapes: 0
+  GridShapes:
+    gridRows:
+    - shapesRow: 05000000000000000500000005000000050000000000000005000000
+    - shapesRow: 00000000050000000500000005000000050000000400000000000000
+    - shapesRow: 05000000050000000500000003000000050000000500000005000000
+    - shapesRow: 00000000050000000500000003000000050000000500000000000000
+    - shapesRow: 05000000050000000300000000000000050000000500000005000000
+    - shapesRow: 00000000050000000500000003000000050000000500000000000000
+    - shapesRow: 05000000000000000500000005000000050000000000000005000000
+  LevelShapes: 0000000001000000020000000300000004000000
+  BoardBombChances: 0
+  CanAddBonus: 1
+  CanShowHint: 1
+  LevelMoves: 1
+  MovesCount: 25
+  TimeLevel: 0
+  LevelDuration: 0
+  ContainsJellyBlocks: 0
+  JellyRowAndColumn:
+    rows:
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+  ContainsRockBlocks: 0
+  RockRowAndColumns:
+    rows:
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+  ShapesMatchTarget: 1
+  ShapesMatches:
+  - Shape: 0
+    matches: 40
+  TargetScores: 1
+  ScoreTarget: 4000
+  LevelCompleted: 0
+  ScoresEarned: 0
